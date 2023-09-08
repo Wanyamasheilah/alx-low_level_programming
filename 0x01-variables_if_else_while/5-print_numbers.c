@@ -1,16 +1,20 @@
 #include <stdio.h>
 
-/**
- * main - main function
- *
- * Return: always 0
- */
 
+/**
+ * main - program that prints the alphabet in lowercase and upper case
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-int i;	
-for (i = 0 ; 1 < 10 ; i++)
-         printf("%d", i);
-printf("\n");
-return (0);
+	int a;
+
+	for (a = 0; a < 10; a++)
+	{
+		putchar(a + '0');
+	}
+	putchar('\n');
+	return (0);
 }
+
