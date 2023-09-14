@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -50,3 +51,4 @@ int convert_day(int month, int day)
     }
     return (day);
 }
+
